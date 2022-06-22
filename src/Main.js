@@ -6,7 +6,18 @@ export default function Main() {
   const navData = [
     {
       text: "Button",
-      page: <Button></Button>
+      page: (
+        <Button
+          type={"basic"}
+          color={"#3f51b5"}
+          uppercase={false}
+          bold={false}
+          hoverColor={`#ff4081`}
+          disabled={true}
+        >
+          Disabled
+        </Button>
+      )
     },
   ];
 
