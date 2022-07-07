@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import Box from "./system-components/Box";
 import PageButton from "./pages/Button/PageButton";
+import PageCard from "./pages/Card/PageCard";
 
 export default function Main() {
   const navData = [
     {
       text: "Button",
       page: <PageButton />
+    },
+    {
+      text: "Card",
+      page: <PageCard />
     },
   ];
 
