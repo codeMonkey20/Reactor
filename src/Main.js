@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Box from "./system-components/Box";
 import PageButton from "./pages/Button/PageButton";
 import PageCard from "./pages/Card/PageCard";
-import PageDropdown from "./pages/Dropdown/PageDropdown";
+import PageMenubar from "./pages/Menubar/PageMenubar";
 
 export default function Main() {
   const navData = [
@@ -15,8 +15,8 @@ export default function Main() {
       page: <PageCard />
     },
     {
-      text: "Dropdown",
-      page: <PageDropdown />
+      text: "Menubar",
+      page: <PageMenubar />
     },
   ];
 

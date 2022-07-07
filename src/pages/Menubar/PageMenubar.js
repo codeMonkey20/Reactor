@@ -1,8 +1,8 @@
 import React from 'react'
-import Dropdown from '../../components/Dropdown/Dropdown'
+import Menubar from '../../components/Menubar/Menubar'
 
 export default function PageDropdown() {
   return (
-    <Dropdown />
+    <Menubar />
   )
 }
