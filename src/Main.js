@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from "./system-components/Box";
 import PageButton from "./pages/Button/PageButton";
 import PageCard from "./pages/Card/PageCard";
+import PageMenubar from "./pages/Menubar/PageMenubar";
 
 export default function Main() {
   const navData = [
@@ -12,6 +13,10 @@ export default function Main() {
     {
       text: "Card",
       page: <PageCard />
+    },
+    {
+      text: "Menubar",
+      page: <PageMenubar />
     },
   ];
 
