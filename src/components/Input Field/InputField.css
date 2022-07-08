@@ -1,0 +1,37 @@
+.text-input {
+  outline: none;
+  transition: all 0.3s;
+}
+
+.text-input:focus {
+  border: 2px solid #7e4ccb;
+}
+
+.text-input:focus+.label,
+.filled {
+  top: -10px;
+  color: #7e4ccb;
+  font-size: 14px;
+  padding: 0 5px 0 5px;
+}
+
+.text-input::placeholder {
+  font-size: 16px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.text-input:focus::placeholder {
+  opacity: 1;
+}
+
+.label::before {
+  content: "";
+  height: 5px;
+  background: #272530;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 100%;
+  z-index: -1;
+}
