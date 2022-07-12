@@ -17,7 +17,7 @@ export default function InputField({
     <div className="relative">
       <input
         type="text"
-        className={`text-input p-[0.8rem] w-full h-full border-2 border-[#2f2c45] bg-[#272530] rounded-md text-[18px] text-white`}
+        className={`text-input p-[0.8rem] w-full h-full border-2 border-gray-300 bg-[#eeeeee] rounded-md text-[18px] text-black`}
         id={id}
         placeholder={placeholder}
         autoComplete="off"
@@ -35,7 +35,7 @@ export default function InputField({
         {...props}
       />
       <label
-        className={`label ${filled} absolute z-[1] pr-[2px] left-[10px] top-[14px] text-[#b3b3b3] transition-all`}
+        className={`label ${filled} absolute z-[1] pr-[2px] left-[10px] top-[14px] text-black transition-all`}
         htmlFor={id}
       >
         {children}

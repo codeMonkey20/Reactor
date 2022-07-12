@@ -4,13 +4,13 @@
 }
 
 .text-input:focus {
-  border: 2px solid #7e4ccb;
+  border: 2px solid #444444;
 }
 
 .text-input:focus+.label,
 .filled {
   top: -10px;
-  color: #7e4ccb;
+  color: #444444;
   font-size: 14px;
   padding: 0 5px 0 5px;
 }
@@ -28,7 +28,7 @@
 .label::before {
   content: "";
   height: 5px;
-  background: #272530;
+  background: #eeee;
   position: absolute;
   left: 0px;
   top: 10px;
